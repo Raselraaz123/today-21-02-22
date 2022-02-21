@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Monthly income and expenses</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+        <h1 class="header-style">Monthly <span class="income">income</span> and <span class="expenses">expenses</span></h1>
+  </header>
+  <main>
+      <section>
+          <div id="text-area">
+              <div id="deposit-text" class="style"><h2>Deposit :$<span id="deposit">00</span></h2></div>
+              <div id="withdraw-text" class="style"><h2>withdraw :$<span id="withdraw">00</span></h2></div>
+              <div id="total-balance-text" class="style"><h2>Total-Balance :$<span id="total-balance">00</span></h2></div>
+          </div>
+      </section>
+      <section>
+          <div  id="payment-area">
+              <div id="color-d" class="style-2">
+                  <h4 id="deposit-style">Deposit</h4><br>
+                  <input id="deposit-input" class="input" type="text" placeholder="Input your deposit amount"><br>
+                  <button id="deposit-btn" class="btn">Deposit</button>
+              </div>
+              <div id="color-w" class="style-2">
+                  <h4 id="withdraw-style">Withdraw</h4><br>
+                  <input id="withdraw-input" class="input" type="text" placeholder="Input your withdraw amount"><br>
+                  <button id="withdraw-btn" class="btn">Deposit</button>
+              </div>
+          </div>
+      </section>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
